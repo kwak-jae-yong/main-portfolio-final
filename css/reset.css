@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Rozha+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    }
+h1,
+h2 {
+    font-family: "Rozha One", serif;
+}
+
+h3,
+h4,
+p,
+span,
+ul,
+li {
+    font-family: "Gothic A1", sans-serif;
+ 
+}
+
+ul,
+dl,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: hsla(0, 0%, 12%, 0.507);
+    height: 100vh;
+    color: #fff;
+}
+

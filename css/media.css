@@ -1,0 +1,607 @@
+@media screen and (max-width: 1920px) {
+
+  .menu-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-list ul li {
+    color: white;
+
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+  header p {
+    font-size: 2.5rem;
+  }
+
+  header .rel .title-wrap .tit-star img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .modalNav {
+    top: 36.8%;
+  }
+
+  .navBtn {
+    display: block;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak,
+  #s0 .rel .tit-wrap .s0-tit .portfolio {
+    height: 10rem;
+    align-items: center;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit span {
+    font-size: 13rem;
+
+
+
+  }
+
+  .name-wrap>h1 {
+    padding-top: 0;
+  }
+
+  #s0 .tit-wrap p {
+    font-size: 2rem;
+
+  }
+
+  #s0 .tit-wrap p span {
+    width: 25rem;
+    top: calc(100% - 2.4rem);
+    left: calc(100% - 19rem)
+  }
+
+  #s0 .tit-wrap p .y-line {
+    top: calc(100% - 2.5rem);
+  }
+
+  .left-star::before {
+    width: 3rem;
+    height: 3rem;
+    right: -2.4rem;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak::after {
+    width: 3rem;
+    height: 3rem;
+    top: -1rem;
+    right: 25rem;
+  }
+
+  #s1 .txt-wrap {
+    padding-right: 2rem;
+  }
+
+  #s1 .txt-wrap p {
+    display: none;
+  }
+
+  #s1 .tit-wrap h1 {
+    font-size: 13rem;
+
+  }
+
+  #s1 .name-wrap .kwak span {
+    height: 10rem;
+  }
+
+  #s1 .img-wrap .line {
+    width: 34rem;
+    height: 25rem;
+    left: 2.5rem;
+  }
+
+  .line-wrap::before {
+    width: 3rem;
+    left: 10rem;
+    top: 21.5rem;
+  }
+
+  .thatsme {
+    bottom: -7rem;
+  }
+
+  #s1 .about-wrap .in-wrap .title {
+    font-size: 2.5rem;
+
+  }
+
+  #s1 .about-wrap .in-wrap span:nth-child(2),
+  #s1 .about-wrap .in-wrap span {
+    font-size: 2.2rem;
+  }
+
+  .about-item {
+    width: 55rem;
+    height: 24rem;
+  }
+
+  .text-box.front .text h4 {
+    font-size: 2.9rem;
+  }
+
+  .text-box.front .tag-list p {
+    font-size: 1.3rem;
+  }
+
+  .about-list .text-box.back h4 {
+    font-size: 3rem;
+  }
+
+  .about-item .img-box a .git {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .about-item .img-box a .notion {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .about-item .img-box a .figma {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  #s2 .s2-tit h1 {
+    font-size: 13rem;
+  }
+
+  #s2 .s2-tit .star.on .star1 {
+    left: 54rem;
+  }
+
+  #s2 .s2-tit .star2,
+  #s2 .s2-tit .star1 {
+    top: 7.5rem;
+  }
+
+  #s2 .s2-tit .line {
+    top: 9.7rem;
+  }
+
+  .about-inner .img-wrap {
+    width: 35rem;
+    height: 10rem;
+  }
+
+  .about-inner .img-wrap img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #s2 .solo .line-wrap {
+    left: 1rem;
+    bottom: 2rem;
+  }
+
+  #s2 .solo .line-wrap::before {
+    top: 4rem;
+    left: -3.5rem;
+  }
+
+  #s2 .team .line-wrap {
+    left: 0;
+    top: -2rem;
+
+  }
+
+  #s2 .team .line-wrap::before {
+    left: -3rem;
+    top: 4rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #s2 .reboot .line-wrap {
+    left: 1rem;
+    bottom: 2rem;
+  }
+
+  #s2 .reboot .line-wrap::before {
+    left: -3.5rem;
+    top: 3.9rem;
+  }
+
+  #s2 .portfolio .line-wrap {
+    left: -1.5rem;
+    bottom: 3.5rem;
+  }
+
+  #s2 .portfolio .line-wrap::before {
+    left: -3.2rem;
+    top: 4rem;
+  }
+
+  #s3 .rel h1 {
+    font-size: 12rem;
+  }
+
+  #s3 .info p {
+    font-size: 2rem;
+  }
+
+  #s3 .info img {
+    width: 8rem;
+
+  }
+
+  #s3 .info-wrap>div {
+    padding-left: 10rem;
+  }
+}
+
+
+
+@media screen and (max-width: 1150px) {
+
+
+  #s0 .rel .tit-wrap .s0-tit .kwak::after {
+    width: 2rem;
+    height: 2rem;
+    top: -1rem;
+    right: 13rem;
+  }
+
+  .left-star::before {
+    width: 2rem;
+    height: 3rem;
+    right: -1.4rem;
+  }
+
+  header {
+    height: 7rem;
+  }
+
+  header p {
+    font-size: 2re;
+  }
+
+  #s0 {
+    padding-left: 0rem;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit span {
+    font-size: 7rem;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak,
+  #s0 .rel .tit-wrap .s0-tit .portfolio {
+    height: 5rem;
+  }
+
+
+  #s0 .tit-wrap p {
+    font-size: 1.5rem;
+  }
+
+  #s2 .s2-tit .star2 {
+    left: 6rem;
+  }
+
+  #s2 .s2-tit .star.on .star1 {
+    left: 35rem;
+  }
+
+  #s2 .s2-tit .star2,
+  #s2 .s2-tit .star1 {
+    top: 2.8rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #s1 .tit-wrap .rel {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 45rem;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  #s1 .txt-wrap {
+    padding-right: 0;
+  }
+
+  #s1 .tit-wrap h1 {
+    position: absolute;
+    bottom: -20rem;
+    right: 20%;
+    font-size: 7rem;
+  }
+
+  #s1 .about-wrap {
+    padding: 20rem 0 0 5rem;
+  }
+
+  #s1 .txt-wrap span {
+    display: none;
+  }
+
+  #s2 .s2-tit .line {
+    top: 4.1rem;
+  }
+
+
+
+  #s2 .s2-tit h1 {
+    font-size: 7rem;
+
+  }
+
+  .about-item {
+    width: 75rem;
+    height: 30rem;
+  }
+
+  #s3 .rel h1 {
+    font-size: 9rem;
+  }
+
+  #s3 .info img {
+    width: 7rem;
+
+  }
+
+  #s3 .info p {
+    font-size: 1.5rem;
+  }
+
+  .about-list .text-box.back {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .about-item .img-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .box-tit {
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .box-tit h4 {
+    text-align: center;
+  }
+
+  #s2 .box-tit p {
+    display: none;
+  }
+
+  .text-box.front .text h4 {
+    font-weight: 900;
+  }
+
+  .text-box.back .box-tit h4 {
+
+    font-weight: 900;
+  }
+
+  .about-inner .img-wrap {
+    width: 28rem;
+  }
+
+  #s2 .line-wrap .line {
+    bottom: -8.5rem;
+    right: 25rem;
+    transform: rotate(65deg);
+    width: 12rem;
+    height: 20rem;
+  }
+
+  #s2 .portfolio .line-wrap {
+    left: 1rem;
+    bottom: 3rem;
+  }
+
+  #s0 .tit-wrap p .y-line {
+    top: calc(100% - 2rem);
+  }
+}
+
+
+
+@media screen and (max-width: 780px) {
+      #s2 .team .line-wrap::before {
+        left: -3rem;
+        top: 5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+  #s2 .solo .line-wrap::before {
+    top: 5.5rem;
+    left: -2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+    #s2 .portfolio .line-wrap::before {
+      left: -3rem;
+        top: 5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+  #s2 .reboot .line-wrap::before {
+    left: -3rem;
+    top: 5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .line-wrap .line {
+    right: 23rem;
+    width: 9rem;
+  }
+
+  #s2 .s2-tit .line {
+    top: 3.2rem
+  }
+
+  #s2 .s2-tit .star2,
+  #s2 .s2-tit .star1 {
+    top: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #s2 .s2-tit .star.on .star1 {
+    left: 27rem;
+  }
+
+  #s2 .s2-tit h1 {
+    font-size: 5rem;
+  }
+
+  .line-wrap::before {
+    width: 2rem;
+    left: 2rem;
+    top: 22.8rem;
+  }
+
+  #s1 .img-wrap .face {
+    top: 11.2rem;
+    right: 60%;
+  }
+
+  #s1 .about-wrap {
+    padding: 20rem 0 0 1rem;
+  }
+
+  #s1 .about-wrap .in-wrap span:nth-child(2),
+  #s1 .about-wrap .in-wrap span {
+    font-size: 1.2rem;
+  }
+
+  #s1 .about-wrap .in-wrap span {
+    padding-right: 1rem;
+  }
+
+  .about-list {
+    padding: 10rem 2rem;
+  }
+
+  .about-item {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .text-box.front .tag-list {
+    flex-wrap: nowrap;
+    gap: .5rem;
+  }
+
+  .text-box.front .tag-list p {
+    font-size: 1rem;
+  }
+
+  .text-box.front .tag-list p {
+    padding: .6rem 1.4rem;
+    border-radius: 1.5rem;
+  }
+
+  .left-star {
+    left: -93%;
+
+
+  }
+
+  .left-star::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    right: -.5rem;
+    top: calc(50% - .8rem);
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -1rem;
+    right: 13rem;
+  }
+
+
+
+  .side-p-line {
+    width: 40rem;
+  }
+
+  /* .side-p {
+    width: 35rem;
+  }*/
+  .side-p svg line {
+    width: 20rem;
+  }
+
+  .thatsme {
+    right: -7.5rem;
+    bottom: -8rem;
+  }
+
+  .side-p svg line {
+    stroke: white;
+    stroke-width: 2;
+  }
+
+  #s0 .tit-wrap p span {
+    top: calc(100% - 1.8rem);
+    left: calc(100% - 13.8rem);
+  }
+
+  #s1 .tit-wrap h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .about-inner .img-wrap {
+    width: 25rem;
+  }
+
+
+  #s3 .rel h1 {
+    font-size: 6rem;
+  }
+
+  #s1 .img-wrap {
+    width: 15rem;
+    display: flex;
+  }
+
+  #s1 .img-wrap .face {
+    width: 100%
+  }
+
+  #s1 .img-wrap .line {
+    left: -5rem;
+    width: 29rem;
+    height: 24rem;
+  }
+}

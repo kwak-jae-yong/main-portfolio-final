@@ -1,0 +1,35 @@
+.img-wrap {
+    position: relative;
+}
+.rel {
+    max-width: 160rem;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.tit-wrap {
+    color: #ffffff;
+    position: relative;
+}
+
+
+.tit-wrap h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.tit-wrap p {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.505);
+}
+
+span.blank{
+    font-size: 5rem;
+    opacity: 0;
+}
+.deco {
+    position: absolute;
+}
+h2{
+position: relative;
+}
