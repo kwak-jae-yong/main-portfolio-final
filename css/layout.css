@@ -586,7 +586,7 @@ header svg {
 
 .navBtn {
     display: none;
-    width: 7rem;
+    width: 5rem;
     height: 5rem;
     /* background-color: aliceblue; */
     position: relative;
@@ -599,8 +599,6 @@ header svg {
     height: .3rem;
     background-color: #fff;
     top: 50%;
-    right: 5rem;
-    margin-right: -1.7rem;
     border-radius: .2rem;
 }
 
@@ -1178,8 +1176,6 @@ body.full {
 
 .about-item .img-box {
     position: absolute;
-    right: 1rem;
-    bottom: 1rem;
     display: flex;
 
     align-items: center;
