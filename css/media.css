@@ -621,10 +621,18 @@
 #s3 .info a{
   width: 40rem;
 }
+.fixedTop{
+  right: .5rem;
+}
+
 }
 
 @media screen and (max-width: 499px) {
   #s0 .tit-wrap {
     transform: scale(.8);
   }
+  
+  .fixedTop img{
+  width: 3rem;
+}
 }
