@@ -687,19 +687,16 @@ header svg {
     content: "";
     display: block;
     width: 0%;
-    /* 초기 너비는 0% */
-    height: 1rem;
+    height: .1rem;
     position: absolute;
     bottom: 0;
     /* li의 하단에 위치 */
     left: 0;
     /* li의 왼쪽에 위치 */
-    background-color: #3498db;
-    /* 색을 지정하여 보이게 설정 */
     transition: width 0.25s ease-in-out;
+    z-index: 3;
     /* 너비 변화에 부드러운 전환 효과 적용 */
 }
-
 .modalNav ul li:hover span {
     width: 100%;
     /* li 요소에 마우스를 올리면 span의 너비가 100%로 증가 */
