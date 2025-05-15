@@ -1195,8 +1195,6 @@ body.full {
 
 .about-item .img-box {
     position: absolute;
-    right: 1rem;
-    bottom: 1rem;
     display: flex;
 
     align-items: center;
