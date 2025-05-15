@@ -618,7 +618,9 @@
     width: 29rem;
     height: 24rem;
   }
-
+#s3 .info a{
+  width: 40rem;
+}
 }
 
 @media screen and (max-width: 499px) {
