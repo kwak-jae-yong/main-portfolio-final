@@ -92,7 +92,6 @@ header .rel .title-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 2rem;
     gap: 1rem;
 
 }
@@ -109,7 +108,7 @@ header .rel {
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 0;
+    padding:  0 2rem;
 }
 
 header p {
@@ -141,7 +140,7 @@ header svg {
 .menu-list ul a {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     padding: 1rem 0;
     cursor: pointer;
@@ -586,8 +585,8 @@ header svg {
 
 .navBtn {
     display: none;
-    width: 5rem;
-    height: 5rem;
+    width: 3.4rem;
+    height: 3rem;
     /* background-color: aliceblue; */
     position: relative;
 }
@@ -599,6 +598,7 @@ header svg {
     height: .3rem;
     background-color: #fff;
     top: 50%;
+   
     border-radius: .2rem;
 }
 
@@ -651,15 +651,17 @@ header svg {
 
 .modalNav ul li {
     position: relative;
+    text-align: center;
 }
 
 .modalNav ul li a {
-    font-size: 5rem;
     color: #ffffff;
     transition: .4s;
     font-weight: 900;
     text-transform: uppercase;
     opacity: 0;
+        font-size: 3rem;
+        letter-spacing: -.5rem;
 
 }
 
@@ -709,12 +711,14 @@ header svg {
     content: "";
     display: block;
     width: 100%;
-    height: 1rem;
+    height: .2rem;
     background-color: white;
+    transform: scaleX(0);
+    transition: transform 1s;
 }
 
 .modalNav ul li+li {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 body.full {
@@ -730,28 +734,46 @@ body.full {
 
 }
 
+.full .modalNav ul li:after {
+    transform: scaleX(1);
+}
+.full .modalNav ul li:nth-child(1):after {
+    transition-delay: 1.2s;
+}
+.full .modalNav ul li:nth-child(2):after {
+    transition-delay: 1.3s;
+}
+.full .modalNav ul li:nth-child(3):after {
+    transition-delay: 1.4s;
+}
+.full .modalNav ul li:nth-child(4):after {
+    transition-delay: 1.5s;
+}
+
 .full .modalNav ul li a {
     transform: translateY(0);
     opacity: 1;
+    letter-spacing: 2rem;
+
 }
 
 .full .modalNav ul li:nth-child(1) a {
-    transition-delay: .9s;
+    transition-delay: 1.9s;
 
 }
 
 .full .modalNav ul li:nth-child(2) a {
-    transition-delay: 1s;
+    transition-delay: 2s;
 
 }
 
 .full .modalNav ul li:nth-child(3) a {
-    transition-delay: 1.1s;
+    transition-delay: 2.1s;
 
 }
 
 .full .modalNav ul li:nth-child(4) a {
-    transition-delay: 1.2s;
+    transition-delay: 2.2s;
 
 }
 
@@ -1176,6 +1198,8 @@ body.full {
 
 .about-item .img-box {
     position: absolute;
+    right: 1rem;
+    bottom: 1rem;
     display: flex;
 
     align-items: center;
@@ -1296,13 +1320,15 @@ body.full {
     align-items: center;
     position: relative;
     justify-content: center;
+
 }
 
 #s3 .rel h1 {
     font-size: 15rem;
-    position: absolute;
     text-transform: capitalize;
-    top: 10rem;
+    height: 50%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -1310,17 +1336,15 @@ body.full {
 #s3 .info-wrap {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.25);
     width: 100%;
-    height: 60%;
-    position: absolute;
-    bottom: 0;
+    height: 50%;
 
 }
 
 #s3 .info:nth-of-type(1) {
-    padding-top: 10rem;
 }
 
 #s3 .info a {
