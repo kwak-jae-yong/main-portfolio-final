@@ -514,10 +514,11 @@
     top: 22.8rem;
   }
 
-  #s1 .img-wrap .face {
-    top: 11.2rem;
-    right: 60%;
-  }
+#s1 .img-wrap .face {
+        top: 16rem;
+        left: -7rem;
+     width: 100%
+    }
 
   #s1 .about-wrap {
     padding: 20rem 0 0 1rem;
@@ -622,9 +623,7 @@
     display: flex;
   }
 
-  #s1 .img-wrap .face {
-    width: 100%
-  }
+
 
   #s1 .img-wrap .line {
     left: -5rem;
