@@ -107,12 +107,12 @@ ScrollTrigger.create({
 
 scene1.to('#s1 .img-wrap .face ', {
     opacity: 1,
-    x: 100,
-    y: 26
+    x: 100
+   
 })
 scene1.to('#s1 .img-wrap .thatsme ', {
     opacity: 1,
-    x: 10,
+    x: 0,
 
 })
 

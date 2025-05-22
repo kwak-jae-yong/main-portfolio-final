@@ -250,7 +250,8 @@
 
   #s1 .img-wrap .face {
     width: 23rem;
-    top: .6rem
+    top: 9rem;
+    left:-4rem;
   }
 }
 
@@ -259,7 +260,7 @@
 @media screen and (max-width: 1150px) {
   #s1 .img-wrap .face {
     width: 20rem;
-    top: 4.5rem;
+    top: 12.1rem;
     left: -1rem;
   }
 
@@ -517,9 +518,9 @@
   }
 
   #s1 .img-wrap .face {
-    top: 10.9rem;
-    left: -7rem;
-    width: 100%
+    top: 15.2rem;
+    left: -9rem;
+   width: 17rem;
   }
 
   #s1 .about-wrap {

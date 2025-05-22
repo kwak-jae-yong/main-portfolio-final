@@ -435,9 +435,9 @@ header svg {
 
 #s1 .img-wrap .face {
     width: 28rem;
-    top: -5.6rem;
+    top: 3.8rem;
     opacity: 0;
-    left: -2rem;
+    left: -5rem;
     filter: grayscale(100%);
 }
 
@@ -526,7 +526,7 @@ header svg {
 
 
 .thatsme {
-    right: -2.5rem;
+    right: -5.5rem;
     bottom: -7rem;
     opacity: 0;
 }
