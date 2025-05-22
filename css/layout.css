@@ -434,9 +434,11 @@ header svg {
 }
 
 #s1 .img-wrap .face {
-    top: 4.6rem;
+    width: 28rem;
+    top: -5.6rem;
     opacity: 0;
     left: -2rem;
+    filter: grayscale(100%);
 }
 
 

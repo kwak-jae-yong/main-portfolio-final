@@ -102,19 +102,16 @@
   #s1 .name-wrap .kwak span {
     height: 10rem;
   }
-  #s1 .img-wrap .face {
-    width: 23rem;
-    top: 8.6rem
-  }
+
   #s1 .img-wrap .line {
     width: 34rem;
     height: 25rem;
-    left: 2.5rem;
+    left: .5rem;
   }
 
   .line-wrap::before {
     width: 3rem;
-    left: 10rem;
+    left: 8rem;
     top: 21.5rem;
   }
 
@@ -250,16 +247,22 @@
   #s3 .info-wrap>div {
     padding-left: 10rem;
   }
+
+  #s1 .img-wrap .face {
+    width: 23rem;
+    top: .6rem
+  }
 }
 
 
 
 @media screen and (max-width: 1150px) {
-    #s1 .img-wrap .face {
+  #s1 .img-wrap .face {
     width: 20rem;
-    top: 11.4rem;
-    left: 0;
+    top: 4.5rem;
+    left: -1rem;
   }
+
   #s2 .about-inner {
     padding-top: 7rem;
   }
@@ -433,17 +436,21 @@
   #s0 .tit-wrap p .y-line {
     top: calc(100% - 2rem);
   }
-    #s3 {
+
+  #s3 {
     height: auto;
     padding: 10rem 0 0;
   }
-  #s3 .rel{
+
+  #s3 .rel {
     height: 100%;
   }
-  #s3 .rel h1{
+
+  #s3 .rel h1 {
     padding-bottom: 10rem;
   }
-  #s3 .info-wrap{
+
+  #s3 .info-wrap {
     padding-top: 10rem;
   }
 }
@@ -451,11 +458,6 @@
 
 
 @media screen and (max-width: 780px) {
-    #s1 .img-wrap .line {
-    left: -3rem;
-    width: 25rem;
-    height: 24rem;
-  }
   #s2 .team .line-wrap::before {
     left: -3rem;
     top: 5rem;
@@ -510,15 +512,15 @@
 
   .line-wrap::before {
     width: 2rem;
-    left: 2rem;
-    top: 22.8rem;
+    left: 3rem;
+    top: 23.4rem;
   }
 
-#s1 .img-wrap .face {
-        top: 16rem;
-        left: -7rem;
-     width: 100%
-    }
+  #s1 .img-wrap .face {
+    top: 10.9rem;
+    left: -7rem;
+    width: 100%
+  }
 
   #s1 .about-wrap {
     padding: 20rem 0 0 1rem;
@@ -626,16 +628,10 @@
 
 
   #s1 .img-wrap .line {
-    left: -5rem;
-    width: 29rem;
+    left: -3rem;
+    width: 25rem;
     height: 24rem;
   }
-#s3 .info a{
-  width: 40rem;
-}
-.fixedTop{
-  right: .5rem;
-}
 
 }
 
@@ -643,8 +639,4 @@
   #s0 .tit-wrap {
     transform: scale(.8);
   }
-  
-  .fixedTop img{
-  width: 3rem;
-}
 }
