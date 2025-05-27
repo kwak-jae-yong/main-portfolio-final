@@ -108,7 +108,7 @@ header .rel {
     justify-content: space-between;
     align-items: center;
 
-    padding:  0 2rem;
+    padding: 0 2rem;
 }
 
 header p {
@@ -248,7 +248,7 @@ header svg {
 
 }
 
-.w-line{
+.w-line {
     display: block;
     height: .1rem;
     background-color: rgb(255, 255, 255);
@@ -362,14 +362,15 @@ header svg {
     background-color: white;
 
 }
+
 #s0 .tit-wrap p .y-line {
     position: absolute;
     display: block;
     content: "";
-    width:20%;
+    width: 20%;
     height: 2rem;
     background-color: rgb(255, 255, 0);
-      top: calc(100% - 3rem);
+    top: calc(100% - 3rem);
     left: 0rem;
     z-index: -1;
 
@@ -601,7 +602,7 @@ header svg {
     height: .3rem;
     background-color: #fff;
     top: 50%;
-   
+
     border-radius: .2rem;
 }
 
@@ -663,8 +664,8 @@ header svg {
     font-weight: 900;
     text-transform: uppercase;
     opacity: 0;
-        font-size: 3rem;
-        letter-spacing: -.5rem;
+    font-size: 3rem;
+    letter-spacing: -.5rem;
 
 }
 
@@ -700,6 +701,7 @@ header svg {
     z-index: 3;
     /* 너비 변화에 부드러운 전환 효과 적용 */
 }
+
 .modalNav ul li:hover span {
     width: 100%;
     /* li 요소에 마우스를 올리면 span의 너비가 100%로 증가 */
@@ -737,15 +739,19 @@ body.full {
 .full .modalNav ul li:after {
     transform: scaleX(1);
 }
+
 .full .modalNav ul li:nth-child(1):after {
     transition-delay: 1.2s;
 }
+
 .full .modalNav ul li:nth-child(2):after {
     transition-delay: 1.3s;
 }
+
 .full .modalNav ul li:nth-child(3):after {
     transition-delay: 1.4s;
 }
+
 .full .modalNav ul li:nth-child(4):after {
     transition-delay: 1.5s;
 }
@@ -1148,7 +1154,7 @@ body.full {
 }
 
 .about-list .text-box.back {
-    text-align: start;
+    text-align: left;
 }
 
 .about-list .text-box.back p {
@@ -1171,7 +1177,10 @@ body.full {
 
 }
 
-
+.about-item .img-box{
+    bottom: 0;
+    right: 1rem;
+}
 .about-item .img-box a {
     position: relative;
     pointer-events: auto;
@@ -1194,6 +1203,20 @@ body.full {
 .about-item .img-box a .figma {
     width: 6.5rem;
     height: 6.5rem;
+}
+
+.about-item .img-box a:hover .react {
+ animation: rainbowColor 1s infinite alternate;
+ 
+
+}
+
+.about-item .img-box a .react {
+    width: 8rem;
+    height: 8rem;
+       fill: #000;
+    color: #000;
+
 }
 
 .about-item .img-box {
@@ -1274,25 +1297,25 @@ body.full {
     20% {
         fill: rgb(255, 123, 0);
         color: rgb(255, 123, 0);
-        transform: translateY(4px);
+      
     }
 
     40% {
         fill: rgb(255, 230, 0);
         color: rgb(255, 230, 0);
-        transform: translateY(8px);
+      
     }
 
     60% {
         fill: rgb(81, 255, 0);
         color: rgb(81, 255, 0);
-        transform: translateY(12px);
+       
     }
 
     80% {
         fill: rgb(0, 60, 255);
         color: rgb(0, 60, 255);
-        transform: translateY(16px);
+       
     }
 
     100% {
@@ -1300,7 +1323,7 @@ body.full {
         ;
         color: rgb(183, 0, 255);
         ;
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
 
 }
@@ -1342,8 +1365,7 @@ body.full {
 
 }
 
-#s3 .info:nth-of-type(1) {
-}
+#s3 .info:nth-of-type(1) {}
 
 #s3 .info a {
     display: flex;

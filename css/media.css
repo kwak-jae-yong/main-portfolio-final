@@ -160,6 +160,10 @@
     width: 4.5rem;
     height: 4.5rem;
   }
+  .about-item .img-box a .react {
+    width: 6rem;
+    height: 6rem;
+  }
 
   #s2 .s2-tit h1 {
     font-size: 13rem;
