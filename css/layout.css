@@ -1177,10 +1177,11 @@ body.full {
 
 }
 
-.about-item .img-box{
+.about-item .img-box {
     bottom: 0;
     right: 1rem;
 }
+
 .about-item .img-box a {
     position: relative;
     pointer-events: auto;
@@ -1205,16 +1206,27 @@ body.full {
     height: 6.5rem;
 }
 
+.about-item .img-box a:hover .python {
+    animation: rainbowColor 1s infinite alternate;
+}
+
+.about-item .img-box a .python {
+    width: 6rem;
+    height: 6rem;
+      fill: #000;
+    color: #000;
+}
+
 .about-item .img-box a:hover .react {
- animation: rainbowColor 1s infinite alternate;
- 
+    animation: rainbowColor 1s infinite alternate;
+
 
 }
 
 .about-item .img-box a .react {
     width: 8rem;
     height: 8rem;
-       fill: #000;
+    fill: #000;
     color: #000;
 
 }
@@ -1297,25 +1309,25 @@ body.full {
     20% {
         fill: rgb(255, 123, 0);
         color: rgb(255, 123, 0);
-      
+
     }
 
     40% {
         fill: rgb(255, 230, 0);
         color: rgb(255, 230, 0);
-      
+
     }
 
     60% {
         fill: rgb(81, 255, 0);
         color: rgb(81, 255, 0);
-       
+
     }
 
     80% {
         fill: rgb(0, 60, 255);
         color: rgb(0, 60, 255);
-       
+
     }
 
     100% {
@@ -1323,7 +1335,7 @@ body.full {
         ;
         color: rgb(183, 0, 255);
         ;
-        transform: translateY(10px);
+        transform: translateY(8px);
     }
 
 }
