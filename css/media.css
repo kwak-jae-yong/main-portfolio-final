@@ -164,6 +164,10 @@
     width: 6rem;
     height: 6rem;
   }
+  .about-item .img-box a .python {
+    width: 4rem;
+    height: 4rem;
+  }
 
   #s2 .s2-tit h1 {
     font-size: 13rem;
