@@ -24,6 +24,18 @@
     transform: translateY(1rem);
 }
 
+.modeBtn {
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    cursor: pointer;
+    z-index: 6;
+    width: 5rem;
+    height: 5rem;
+    content: "";
+    background-color: #ffffff;
+}
+
 .fixedTop.On {
     opacity: 1;
     transform: translateY(0);
@@ -63,13 +75,13 @@ aside {
 }
 
 header {
-    height: 9.7rem;
+    height: 7.5rem;
     position: fixed;
     z-index: 5;
     color: #fff;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.788);
 
 
 }
@@ -96,7 +108,8 @@ header .rel .title-wrap {
 
 }
 
-header .rel .title-wrap .tit-star img {
+header .rel .title-wrap .tit-star  {
+    background: url(../img/whiteStar.svg) no-repeat center/contain;
     width: 3.5rem;
     height: 3.5rem;
 
@@ -113,7 +126,7 @@ header .rel {
 
 header p {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -166,7 +179,7 @@ header svg {
 /*s0 start*/
 
 #s0 {
-    background-color: #f9f9f975;
+    background-color: hsla(0, 0%, 12%, 0.507);
     padding-left: 12rem;
 }
 
@@ -367,10 +380,10 @@ header svg {
     position: absolute;
     display: block;
     content: "";
-    width: 20%;
-    height: 2rem;
+
+    height: 3rem;
     background-color: rgb(255, 255, 0);
-    top: calc(100% - 3rem);
+    top: calc(100% - 3.5rem);
     left: 0rem;
     z-index: -1;
 
@@ -381,7 +394,7 @@ header svg {
 
 #s1 {
     min-height: 108rem;
-    background-color: #f9f9f975;
+    background-color: hsla(0, 0%, 12%, 0.507);
 }
 
 #s1 .tit-wrap::before {
@@ -426,7 +439,9 @@ header svg {
     position: absolute;
 
 }
-
+#s1 .img-wrap .line{
+  stroke: white;
+}
 #s1 .img-wrap {
     position: relative;
     width: 37rem;
@@ -530,6 +545,7 @@ header svg {
     right: -5.5rem;
     bottom: -7rem;
     opacity: 0;
+    stroke: white;
 }
 
 .line-wrap {
@@ -669,6 +685,8 @@ header svg {
 
 }
 
+.modalNav ul li span {}
+
 .modalNav ul li:nth-child(1) span {
     background-color: #CDFF62;
 }
@@ -691,7 +709,7 @@ header svg {
     content: "";
     display: block;
     width: 0%;
-    height: .1rem;
+    height: .2rem;
     position: absolute;
     bottom: 0;
     /* li의 하단에 위치 */
@@ -1213,7 +1231,7 @@ body.full {
 .about-item .img-box a .python {
     width: 6rem;
     height: 6rem;
-      fill: #000;
+    fill: #000;
     color: #000;
 }
 
@@ -1412,3 +1430,164 @@ body.full {
 
 
 /*footer end*/
+
+/* theme.css: 라이트모드 스타일 오버라이드 */
+body.light-mode {
+    background-color: #f9f9f9 !important;
+
+    color: #111 !important;
+}
+
+body.light-mode #s1 {
+    background-color: rgba(160, 160, 160, 0.692);
+}
+
+body.light-mode header {
+    background-color: rgba(126, 126, 126, 0.616) !important;
+    color: #111 !important;
+}
+
+body.light-mode #s1 .about-wrap .in-wrap {
+    border-bottom: .3rem solid black;
+}
+
+body.light-mode .menu-list ul a {
+    color: #111 !important;
+}
+
+body.light-mode #s0 .rel .tit-wrap .s0-tit span {
+    color: black;
+}
+
+body.light-mode .color-box {
+    background-color: rgba(160, 160, 160, 0.692) !important;
+}
+
+body.light-mode .modeBtn {
+    background-color: #000 !important;
+}
+
+
+
+
+
+body.light-mode #s1 .about-wrap .in-wrap span {
+    color: #000;
+}
+
+body.light-mode #s0 {
+    background-color: rgba(160, 160, 160, 0.692);
+}
+
+/* 라이트모드에서도 동일한 hover 효과 적용 */
+body.light-mode .menu-list ul li:nth-child(1):hover a {
+    color: #CDFF62 !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(2):hover a {
+    color: #00FFA4 !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(3):hover a {
+    color: #6BFEFE !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(4):hover a {
+    color: #FF9DEF !important;
+}
+
+
+body.light-mode .modalNav {
+    background-color: #bebebe !important;
+}
+
+
+
+
+/* 라이트모드에서도 기존 hover 색상 유지 */
+body.light-mode .modalNav ul li:hover span {
+    width: 100%;
+    /* 밑줄 */
+}
+
+body.light-mode .modalNav ul li:nth-child(1):hover a {
+    color: #CDFF62;
+}
+
+body.light-mode .modalNav ul li:nth-child(2):hover a {
+    color: #00FFA4;
+}
+
+body.light-mode .modalNav ul li:nth-child(3):hover a {
+    color: #6BFEFE;
+}
+
+body.light-mode .modalNav ul li:nth-child(4):hover a {
+    color: #FF9DEF;
+}
+
+
+#s3 .notion img {
+    width: 9rem;
+    height: 5rem;
+}
+
+body.light-mode .modalNav ul li a {
+    color: black;
+}
+
+body.light-mode .modalNav ul li::after {
+    background-color: #000;
+}
+
+body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+    width: 3.5rem;
+    height: 3.5rem;
+   
+ 
+}
+
+body.light-mode .w-line{
+    background-color: #000;
+}
+
+body.light-mode .left-star{
+    background-color: #000;
+}
+
+body.light-mode .left-star::before{
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+body.light-mode header .rel .title-wrap .tit-star{
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+
+body.light-mode .txt-wrap{
+    color: #000;
+}
+body.light-mode #s1 .txt-wrap p{
+    color: #000;
+}
+
+body.light-mode .line-wrap::before{
+     background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+
+body.light-mode #s1 .img-wrap .line{
+  stroke: black;
+}
+
+body.light-mode .navBtn span,
+body.light-mode .navBtn span::before,
+body.light-mode .navBtn span::after{
+    background-color: #000;
+}
+
+body.light-mode .thatsme{
+   stroke: black;
+}
+
+body.light-mode.full .navBtn span{
+  background-color: transparent;
+}

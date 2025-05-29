@@ -71,6 +71,7 @@
 
   #s0 .tit-wrap p .y-line {
     top: calc(100% - 2.5rem);
+    height: 2rem;
   }
 
   .left-star::before {
@@ -116,6 +117,7 @@
   }
 
   .thatsme {
+    right: -.5rem;
     bottom: -7rem;
   }
 
@@ -160,10 +162,12 @@
     width: 4.5rem;
     height: 4.5rem;
   }
+
   .about-item .img-box a .react {
     width: 6rem;
     height: 6rem;
   }
+
   .about-item .img-box a .python {
     width: 4rem;
     height: 4rem;
@@ -259,7 +263,12 @@
   #s1 .img-wrap .face {
     width: 23rem;
     top: 9rem;
-    left:-4rem;
+    left: -4rem;
+  }
+
+  body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -370,7 +379,7 @@
   }
 
   .about-item {
-    width: 75rem;
+    max-width: 80%;
     height: 30rem;
   }
 
@@ -462,190 +471,220 @@
   #s3 .info-wrap {
     padding-top: 10rem;
   }
-}
 
-
-
-@media screen and (max-width: 780px) {
-  #s2 .team .line-wrap::before {
-    left: -3rem;
-    top: 5rem;
-    width: 1.5rem;
-    height: 1.5rem;
+  body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+    width: 2rem;
+    height: 2rem;
   }
 
-  #s2 .solo .line-wrap::before {
-    top: 5.5rem;
-    left: -2.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  #s2 .portfolio .line-wrap::before {
-    left: -3rem;
-    top: 5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  #s2 .reboot .line-wrap::before {
-    left: -3rem;
-    top: 5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  #s2 .line-wrap .line {
-    right: 23rem;
-    width: 9rem;
-  }
-
-  #s2 .s2-tit .line {
-    top: 3.2rem
-  }
-
-  #s2 .s2-tit .star2,
-  #s2 .s2-tit .star1 {
-    top: 2rem;
+  .modeBtn {
     width: 3rem;
     height: 3rem;
-  }
+    left: 1rem;
 
-  #s2 .s2-tit .star.on .star1 {
-    left: 27rem;
-  }
-
-  #s2 .s2-tit h1 {
-    font-size: 5rem;
-  }
-
-  .line-wrap::before {
-    width: 2rem;
-    left: 3rem;
-    top: 23.4rem;
-  }
-
-  #s1 .img-wrap .face {
-    top: 15.2rem;
-    left: -9rem;
-   width: 17rem;
-  }
-
-  #s1 .about-wrap {
-    padding: 20rem 0 0 1rem;
-  }
-
-  #s1 .about-wrap .in-wrap span:nth-child(2),
-  #s1 .about-wrap .in-wrap span {
-    font-size: 1.2rem;
-  }
-
-  #s1 .about-wrap .in-wrap span {
-    padding-right: 1rem;
-  }
-
-  .about-list {
-    padding: 5rem 2rem;
-  }
-
-  .about-item {
-    width: 100%;
-    height: 20rem;
-  }
-
-  .text-box.front .tag-list {
-    flex-wrap: nowrap;
-    gap: .5rem;
-  }
-
-  .text-box.front .tag-list p {
-    font-size: 1rem;
-  }
-
-  .text-box.front .tag-list p {
-    padding: .6rem 1.4rem;
-    border-radius: 1.5rem;
-  }
-
-  .left-star {
-    left: -93%;
-
-
-  }
-
-  .left-star::before {
-    width: 1.5rem;
-    height: 1.5rem;
-    right: -.5rem;
-    top: calc(50% - .8rem);
-  }
-
-  #s0 .rel .tit-wrap .s0-tit .kwak::after {
-    width: 1.5rem;
-    height: 1.5rem;
-    top: -1rem;
-    right: 13rem;
+    header .rel .title-wrap .tit-star {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
   }
 
 
 
-  .side-p-line {
-    width: 40rem;
-  }
+  @media screen and (max-width: 780px) {
+    .cursor {
+      width: 1rem;
+      height: 1rem;
+    }
 
-  /* .side-p {
+    body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #s2 .team .line-wrap::before {
+      left: -3rem;
+      top: 5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #s2 .solo .line-wrap::before {
+      top: 5.5rem;
+      left: -2.5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #s2 .portfolio .line-wrap::before {
+      left: -3rem;
+      top: 5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #s2 .reboot .line-wrap::before {
+      left: -3rem;
+      top: 5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #s2 .line-wrap .line {
+      right: 23rem;
+      width: 9rem;
+    }
+
+    #s2 .s2-tit .line {
+      top: 3.2rem
+    }
+
+    #s2 .s2-tit .star2,
+    #s2 .s2-tit .star1 {
+      top: 2rem;
+      width: 3rem;
+      height: 3rem;
+    }
+
+    #s2 .s2-tit .star.on .star1 {
+      left: 27rem;
+    }
+
+    #s2 .s2-tit h1 {
+      font-size: 5rem;
+    }
+
+    .line-wrap::before {
+      width: 2rem;
+      left: 3rem;
+      top: 23.4rem;
+    }
+
+    #s1 .img-wrap .face {
+      top: 15.2rem;
+      left: -9rem;
+      width: 17rem;
+    }
+
+    #s1 .about-wrap {
+      padding: 20rem 0 0 1rem;
+    }
+
+    #s1 .about-wrap .in-wrap span:nth-child(2),
+    #s1 .about-wrap .in-wrap span {
+      font-size: 1.2rem;
+    }
+
+    #s1 .about-wrap .in-wrap span {
+      padding-right: 1rem;
+    }
+
+    .about-list {
+      padding: 5rem 2rem;
+    }
+
+    .about-item {
+      width: 100%;
+      height: 20rem;
+    }
+
+    .text-box.front .tag-list {
+      flex-wrap: nowrap;
+      gap: .5rem;
+    }
+
+    .text-box.front .tag-list p {
+      font-size: 1rem;
+    }
+
+    .text-box.front .tag-list p {
+      padding: .6rem 1.4rem;
+      border-radius: 1.5rem;
+    }
+
+    .left-star {
+      left: -93%;
+
+
+    }
+
+    .left-star::before {
+      width: 1.5rem;
+      height: 1.5rem;
+      right: -.5rem;
+      top: calc(50% - .8rem);
+    }
+
+    #s0 .rel .tit-wrap .s0-tit .kwak::after {
+      width: 1.5rem;
+      height: 1.5rem;
+      top: -1rem;
+      right: 13rem;
+    }
+
+
+
+    .side-p-line {
+      width: 40rem;
+    }
+
+    /* .side-p {
     width: 35rem;
   }*/
-  .side-p svg line {
-    width: 20rem;
+    .side-p svg line {
+      width: 20rem;
+    }
+
+    .thatsme {
+      right: -7.5rem;
+      bottom: -8rem;
+    }
+
+    .side-p svg line {
+      stroke: white;
+      stroke-width: 2;
+    }
+
+    #s0 .tit-wrap p span {
+      top: calc(100% - 1.8rem);
+      left: calc(100% - 13.8rem);
+    }
+
+    #s1 .tit-wrap h1 {
+      font-size: 5rem;
+      text-align: center;
+    }
+
+    .about-inner .img-wrap {
+      width: 25rem;
+    }
+
+
+    #s3 .rel h1 {
+      font-size: 6rem;
+    }
+
+    #s1 .img-wrap {
+      width: 15rem;
+      display: flex;
+    }
+
+
+
+    #s1 .img-wrap .line {
+      left: -3rem;
+      width: 25rem;
+      height: 24rem;
+    }
+
+    header .rel .title-wrap .tit-star {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
-  .thatsme {
-    right: -7.5rem;
-    bottom: -8rem;
-  }
-
-  .side-p svg line {
-    stroke: white;
-    stroke-width: 2;
-  }
-
-  #s0 .tit-wrap p span {
-    top: calc(100% - 1.8rem);
-    left: calc(100% - 13.8rem);
-  }
-
-  #s1 .tit-wrap h1 {
-    font-size: 5rem;
-    text-align: center;
-  }
-
-  .about-inner .img-wrap {
-    width: 25rem;
-  }
-
-
-  #s3 .rel h1 {
-    font-size: 6rem;
-  }
-
-  #s1 .img-wrap {
-    width: 15rem;
-    display: flex;
-  }
-
-
-
-  #s1 .img-wrap .line {
-    left: -3rem;
-    width: 25rem;
-    height: 24rem;
-  }
-
-}
-
-@media screen and (max-width: 499px) {
-  #s0 .tit-wrap {
-    transform: scale(.8);
+  @media screen and (max-width: 499px) {
+    #s0 .tit-wrap {
+      transform: scale(.8);
+    }
   }
 }
