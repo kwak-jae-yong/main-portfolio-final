@@ -25,17 +25,21 @@
 }
 
 .modeBtn {
-  position: fixed;
-  right: 5.8rem;
-  bottom: 13rem;
-  cursor: pointer;
-  z-index: 6;
-  width: 3rem;
-  height: 3rem;
-  background:url(../img/L.svg) no-repeat center/contain ;
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    cursor: pointer;
+    z-index: 6;
+ 
+    width: 3rem;
+    height: 3rem;
+    background: url(../img/L.svg) no-repeat center/contain;
 }
 
-
+.modeBtn.On{
+    
+    transform: translateY(0);
+}
 .fixedTop.On {
     opacity: 1;
     transform: translateY(0);
@@ -968,10 +972,12 @@ body.full {
 
     background: url(../img/TeamMission.svg) no-repeat center/contain;
 }
+
 #s2 .reboot .svg-wrap {
 
     background: url(../img/CodeReboot.svg) no-repeat center/contain;
 }
+
 #s2 .portfolio .svg-wrap {
 
     background: url(../img/Portfoliotamplate.svg) no-repeat center/contain;
@@ -1014,7 +1020,7 @@ body.full {
 }
 
 #s2 .portfolio .line-wrap::before {
- top: 0.8rem;
+    top: 0.8rem;
     left: 6.5rem;
     width: 2rem;
     height: 2rem;
@@ -1456,11 +1462,10 @@ body.full {
     background-color: white;
     border-radius: .5rem;
 }
+
 #s3 .notion img {
     width: 9rem;
     height: 5rem;
 }
 
 /*footer end*/
-
-
