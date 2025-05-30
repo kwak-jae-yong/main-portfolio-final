@@ -1,5 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 // 1
 const scene1 = gsap.timeline({
     // duration: .5
@@ -108,7 +110,7 @@ ScrollTrigger.create({
 scene1.to('#s1 .img-wrap .face ', {
     opacity: 1,
     x: 100
-   
+
 })
 scene1.to('#s1 .img-wrap .thatsme ', {
     opacity: 1,
@@ -124,22 +126,22 @@ const s0 = gsap.timeline({
 })
 
 
-  s0.fromTo(".side-p .w-line",
+s0.fromTo(".side-p .w-line",
     { width: "0%" },
     {
-      width:"60%"
+        width: "60%"
     }
-  );
+);
 
-  s0.fromTo(".side-p .y-line",
-    { width:0},
+s0.fromTo(".side-p .y-line",
+    { width: 0 },
     {
-     width:"100%",
-      onComplete: function () {
-        document.querySelector('.side-p svg').classList.add('on');
-      }
+        width: "100%",
+        onComplete: function () {
+            document.querySelector('.side-p svg').classList.add('on');
+        }
     }
-  );
+);
 
 s0.fromTo(".left-star",
     { width: 0 },

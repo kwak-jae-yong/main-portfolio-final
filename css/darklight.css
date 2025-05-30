@@ -1,0 +1,229 @@
+body.light-mode {
+    background-color: #f9f9f9 !important;
+
+    color: #111 !important;
+}
+
+body.light-mode #s1 {
+    background-color: rgba(160, 160, 160, 0.692);
+}
+
+body.light-mode header {
+    background-color: rgba(126, 126, 126, 0.616) !important;
+    color: #111 !important;
+}
+
+body.light-mode #s1 .about-wrap .in-wrap {
+    border-bottom: .3rem solid black;
+}
+
+body.light-mode .menu-list ul a {
+    color: #111 !important;
+}
+
+body.light-mode #s0 .rel .tit-wrap .s0-tit span {
+    color: black;
+}
+
+body.light-mode .color-box {
+    background-color: rgba(160, 160, 160, 0.692) !important;
+}
+
+body.light-mode .modeBtn {
+    background: url(../img/D.svg) no-repeat center/contain;
+}
+
+
+
+
+
+body.light-mode #s1 .about-wrap .in-wrap span {
+    color: #000;
+}
+
+body.light-mode #s0 {
+    background-color: rgba(160, 160, 160, 0.692);
+}
+
+/* 라이트모드에서도 동일한 hover 효과 적용 */
+body.light-mode .menu-list ul li:nth-child(1):hover a {
+    color: #CDFF62 !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(2):hover a {
+    color: #00FFA4 !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(3):hover a {
+    color: #6BFEFE !important;
+}
+
+body.light-mode .menu-list ul li:nth-child(4):hover a {
+    color: #FF9DEF !important;
+}
+
+
+body.light-mode .modalNav {
+    background-color: #bebebe !important;
+}
+
+
+
+
+/* 라이트모드에서도 기존 hover 색상 유지 */
+body.light-mode .modalNav ul li:hover span {
+    width: 100%;
+    /* 밑줄 */
+}
+
+body.light-mode .modalNav ul li:nth-child(1):hover a {
+    color: #CDFF62;
+}
+
+body.light-mode .modalNav ul li:nth-child(2):hover a {
+    color: #00FFA4;
+}
+
+body.light-mode .modalNav ul li:nth-child(3):hover a {
+    color: #6BFEFE;
+}
+
+body.light-mode .modalNav ul li:nth-child(4):hover a {
+    color: #FF9DEF;
+}
+
+
+
+
+body.light-mode .modalNav ul li a {
+    color: black;
+}
+
+body.light-mode .modalNav ul li::after {
+    background-color: #000;
+}
+
+body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+    width: 3.5rem;
+    height: 3.5rem;
+
+
+}
+
+body.light-mode .w-line {
+    background-color: #000;
+}
+
+body.light-mode .left-star {
+    background-color: #000;
+}
+
+body.light-mode .left-star::before {
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+
+body.light-mode header .rel .title-wrap .tit-star {
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+
+body.light-mode .txt-wrap {
+    color: #000;
+}
+
+body.light-mode #s1 .txt-wrap p {
+    color: #000;
+}
+
+body.light-mode .line-wrap::before {
+    background: url(../img/darkStar.svg) no-repeat center/contain;
+}
+
+body.light-mode #s1 .img-wrap .line {
+    stroke: black;
+}
+
+body.light-mode .navBtn span,
+body.light-mode .navBtn span::before,
+body.light-mode .navBtn span::after {
+    background-color: #000;
+}
+
+body.light-mode .thatsme {
+    stroke: black;
+}
+
+body.light-mode.full .navBtn span {
+    background-color: transparent;
+}
+
+body.light-mode #s2 .line {
+    stroke: #000;
+}
+
+
+body.light-mode .text-box.front {
+    background-color: #bebebe;
+    border: .1rem solid black;
+}
+
+body.light-mode .text-box.front h4 {
+    color: #000;
+}
+
+body.light-mode .text-box.front .tag-list p {
+    border: .1rem solid black;
+    color: black;
+}
+
+body.light-mode #s2 .solo .svg-wrap {
+
+    background: url(../img/dark\ Solo\ Mission.svg) no-repeat center/contain;
+}
+
+body.light-mode #s2 .team .svg-wrap {
+
+    background: url(../img/darkTeam\ Mission.svg) no-repeat center/contain;
+}
+
+body.light-mode #s2 .reboot .svg-wrap {
+
+    background: url(../img/dark\ Code\ Reboot.svg) no-repeat center/contain;
+}
+
+body.light-mode #s2 .portfolio .svg-wrap {
+
+    background: url(../img/dark\ Portfolio\ tamplate.svg) no-repeat center/contain;
+}
+
+body.light-mode #s2 {
+    background-color: #bebebe8c;
+}
+
+body.light-mode #s2 h1 {
+    color: #000;
+}
+
+body.light-mode .reboot .about-list .text-box.back {
+    background-color: rgba(49, 167, 167, 0.5);
+}
+body.light-mode .team .about-list .text-box.back{
+    background-color: rgba(0, 255, 166, 0.5);
+}
+body.light-mode .portfolio .about-list .text-box.back{
+    background-color: rgba(255, 157, 239, 0.5);
+}
+body.light-mode .solo .about-list .text-box.back{
+background-color:  rgba(231, 255, 98, 0.5);
+}
+body.light-mode .about-list .text-box.back h4,
+body.light-mode #s2 .box-tit p {
+    color: white;
+}
+
+body.light-mode .about-item .img-box a{
+    fill: white;
+}
+body.light-mode .about-item .img-box a .python,body.light-mode .about-item .img-box a .react{
+      fill: white;
+}

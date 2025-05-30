@@ -25,16 +25,16 @@
 }
 
 .modeBtn {
-    position: fixed;
-    left: 3rem;
-    bottom: 3rem;
-    cursor: pointer;
-    z-index: 6;
-    width: 5rem;
-    height: 5rem;
-    content: "";
-    background-color: #ffffff;
+  position: fixed;
+  right: 5.8rem;
+  bottom: 13rem;
+  cursor: pointer;
+  z-index: 6;
+  width: 3rem;
+  height: 3rem;
+  background:url(../img/L.svg) no-repeat center/contain ;
 }
+
 
 .fixedTop.On {
     opacity: 1;
@@ -108,7 +108,7 @@ header .rel .title-wrap {
 
 }
 
-header .rel .title-wrap .tit-star  {
+header .rel .title-wrap .tit-star {
     background: url(../img/whiteStar.svg) no-repeat center/contain;
     width: 3.5rem;
     height: 3.5rem;
@@ -439,9 +439,11 @@ header svg {
     position: absolute;
 
 }
-#s1 .img-wrap .line{
-  stroke: white;
+
+#s1 .img-wrap .line {
+    stroke: white;
 }
+
 #s1 .img-wrap {
     position: relative;
     width: 37rem;
@@ -878,8 +880,13 @@ body.full {
 
 
 
+#s2 {
+    background-color: rgba(0, 0, 0, 0.527);
+}
 
-
+#s2 h1 {
+    color: white;
+}
 
 
 #s2 .line-wrap .line path {
@@ -947,7 +954,28 @@ body.full {
 
 }
 
+.svg-wrap {
+    width: 45rem;
+    height: 7rem;
+}
 
+#s2 .solo .svg-wrap {
+
+    background: url(../img/SoloMission.svg) no-repeat center/contain;
+}
+
+#s2 .team .svg-wrap {
+
+    background: url(../img/TeamMission.svg) no-repeat center/contain;
+}
+#s2 .reboot .svg-wrap {
+
+    background: url(../img/CodeReboot.svg) no-repeat center/contain;
+}
+#s2 .portfolio .svg-wrap {
+
+    background: url(../img/Portfoliotamplate.svg) no-repeat center/contain;
+}
 
 #s2 .line-wrap .line {
     bottom: -9rem;
@@ -973,21 +1001,21 @@ body.full {
 
 #s2 .team .line-wrap::before {
     top: 1rem;
-    left: 11.5rem;
+    left: 6.8rem;
     width: 2rem;
     height: 2rem;
 }
 
 #s2 .reboot .line-wrap::before {
     top: 1rem;
-    left: 9.5rem;
+    left: 6.5rem;
     width: 2rem;
     height: 2rem;
 }
 
 #s2 .portfolio .line-wrap::before {
-    top: 2.8rem;
-    left: 27rem;
+ top: 0.8rem;
+    left: 6.5rem;
     width: 2rem;
     height: 2rem;
 }
@@ -995,25 +1023,25 @@ body.full {
 #s2 .solo .line-wrap {
     position: absolute;
     bottom: 0;
-    left: -10rem;
+    left: -8rem;
 }
 
 #s2 .team .line-wrap {
     position: absolute;
     bottom: 0;
-    left: -15rem;
+    left: -9rem;
 }
 
 #s2 .reboot .line-wrap {
     position: absolute;
     bottom: 0;
-    left: -13rem;
+    left: -9rem;
 }
 
 #s2 .portfolio .line-wrap {
     position: absolute;
     bottom: 1.5rem;
-    left: -32rem;
+    left: -9rem;
 
 }
 
@@ -1173,6 +1201,7 @@ body.full {
 
 .about-list .text-box.back {
     text-align: left;
+    border: .1rem solid black;
 }
 
 .about-list .text-box.back p {
@@ -1427,167 +1456,11 @@ body.full {
     background-color: white;
     border-radius: .5rem;
 }
-
-
-/*footer end*/
-
-/* theme.css: 라이트모드 스타일 오버라이드 */
-body.light-mode {
-    background-color: #f9f9f9 !important;
-
-    color: #111 !important;
-}
-
-body.light-mode #s1 {
-    background-color: rgba(160, 160, 160, 0.692);
-}
-
-body.light-mode header {
-    background-color: rgba(126, 126, 126, 0.616) !important;
-    color: #111 !important;
-}
-
-body.light-mode #s1 .about-wrap .in-wrap {
-    border-bottom: .3rem solid black;
-}
-
-body.light-mode .menu-list ul a {
-    color: #111 !important;
-}
-
-body.light-mode #s0 .rel .tit-wrap .s0-tit span {
-    color: black;
-}
-
-body.light-mode .color-box {
-    background-color: rgba(160, 160, 160, 0.692) !important;
-}
-
-body.light-mode .modeBtn {
-    background-color: #000 !important;
-}
-
-
-
-
-
-body.light-mode #s1 .about-wrap .in-wrap span {
-    color: #000;
-}
-
-body.light-mode #s0 {
-    background-color: rgba(160, 160, 160, 0.692);
-}
-
-/* 라이트모드에서도 동일한 hover 효과 적용 */
-body.light-mode .menu-list ul li:nth-child(1):hover a {
-    color: #CDFF62 !important;
-}
-
-body.light-mode .menu-list ul li:nth-child(2):hover a {
-    color: #00FFA4 !important;
-}
-
-body.light-mode .menu-list ul li:nth-child(3):hover a {
-    color: #6BFEFE !important;
-}
-
-body.light-mode .menu-list ul li:nth-child(4):hover a {
-    color: #FF9DEF !important;
-}
-
-
-body.light-mode .modalNav {
-    background-color: #bebebe !important;
-}
-
-
-
-
-/* 라이트모드에서도 기존 hover 색상 유지 */
-body.light-mode .modalNav ul li:hover span {
-    width: 100%;
-    /* 밑줄 */
-}
-
-body.light-mode .modalNav ul li:nth-child(1):hover a {
-    color: #CDFF62;
-}
-
-body.light-mode .modalNav ul li:nth-child(2):hover a {
-    color: #00FFA4;
-}
-
-body.light-mode .modalNav ul li:nth-child(3):hover a {
-    color: #6BFEFE;
-}
-
-body.light-mode .modalNav ul li:nth-child(4):hover a {
-    color: #FF9DEF;
-}
-
-
 #s3 .notion img {
     width: 9rem;
     height: 5rem;
 }
 
-body.light-mode .modalNav ul li a {
-    color: black;
-}
+/*footer end*/
 
-body.light-mode .modalNav ul li::after {
-    background-color: #000;
-}
 
-body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
-    background: url(../img/darkStar.svg) no-repeat center/contain;
-    width: 3.5rem;
-    height: 3.5rem;
-   
- 
-}
-
-body.light-mode .w-line{
-    background-color: #000;
-}
-
-body.light-mode .left-star{
-    background-color: #000;
-}
-
-body.light-mode .left-star::before{
-    background: url(../img/darkStar.svg) no-repeat center/contain;
-}
-body.light-mode header .rel .title-wrap .tit-star{
-    background: url(../img/darkStar.svg) no-repeat center/contain;
-}
-
-body.light-mode .txt-wrap{
-    color: #000;
-}
-body.light-mode #s1 .txt-wrap p{
-    color: #000;
-}
-
-body.light-mode .line-wrap::before{
-     background: url(../img/darkStar.svg) no-repeat center/contain;
-}
-
-body.light-mode #s1 .img-wrap .line{
-  stroke: black;
-}
-
-body.light-mode .navBtn span,
-body.light-mode .navBtn span::before,
-body.light-mode .navBtn span::after{
-    background-color: #000;
-}
-
-body.light-mode .thatsme{
-   stroke: black;
-}
-
-body.light-mode.full .navBtn span{
-  background-color: transparent;
-}

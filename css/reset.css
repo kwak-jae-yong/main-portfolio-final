@@ -48,3 +48,6 @@ section {
     z-index: 0;
 }
 
+#s2 .line{
+    stroke: white;
+}

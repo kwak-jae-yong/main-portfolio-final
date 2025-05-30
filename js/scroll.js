@@ -9,7 +9,7 @@ let totalNum = sections.length
 const navBtn = document.querySelector('.navBtn')
 const navBtnList = document.querySelectorAll('.modalNav ul li')
 const body = document.querySelector('body')
-
+const menuBtn = document.querySelectorAll('.menu-list ul li')
 
 navBtn.addEventListener('click',(e)=>{
     e.preventDefault()
@@ -18,6 +18,23 @@ navBtn.addEventListener('click',(e)=>{
 })
 
 navBtnList.forEach(function (nav, index) {
+
+    nav.addEventListener('click', function () {
+        
+        body.classList.remove('full')
+        init(index)
+
+        gsap.to(window, {
+            duration: 1,
+            scrollTo: {
+                y: `#s${index}`
+            }
+        })
+
+    })
+
+})
+menuBtn.forEach(function (nav, index) {
 
     nav.addEventListener('click', function () {
         

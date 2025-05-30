@@ -192,7 +192,7 @@
 
   .about-inner .img-wrap {
     width: 35rem;
-    height: 10rem;
+    height: 8.5rem;
   }
 
   .about-inner .img-wrap img {
@@ -230,7 +230,7 @@
 
   #s2 .reboot .line-wrap::before {
     left: -3.5rem;
-    top: 3.9rem;
+    top: 2.5rem;
   }
 
   #s2 .portfolio .line-wrap {
@@ -240,7 +240,7 @@
 
   #s2 .portfolio .line-wrap::before {
     left: -3.2rem;
-    top: 4rem;
+    top: 2.6rem;
   }
 
   #s3 .rel h1 {
