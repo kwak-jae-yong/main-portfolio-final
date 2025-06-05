@@ -206,8 +206,8 @@
   }
 
   #s2 .solo .line-wrap::before {
-    top: 4rem;
-    left: -3.5rem;
+    top: 3rem;
+    left: -3rem;
   }
 
   #s2 .team .line-wrap {
@@ -217,8 +217,8 @@
   }
 
   #s2 .team .line-wrap::before {
-    left: -3rem;
-    top: 4rem;
+    left: -3.5rem;
+    top: 2.5rem;
     width: 2rem;
     height: 2rem;
   }
@@ -251,8 +251,9 @@
     font-size: 2rem;
   }
 
-  #s3 .info img {
-    width: 8rem;
+  #s3 .info .img {
+    width: 4rem;
+    height: 4rem;
 
   }
 
@@ -269,6 +270,15 @@
   body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
     width: 3rem;
     height: 3rem;
+  }
+
+  .fixedTop {
+    right: 2rem;
+  }
+
+  .modeBtn {
+
+    right: 2.8rem;
   }
 }
 
@@ -339,6 +349,10 @@
     height: 3rem;
   }
 
+  .about-list {
+    padding-top: 5rem;
+  }
+
   #s1 .tit-wrap .rel {
     display: flex;
     width: 100%;
@@ -387,10 +401,6 @@
     font-size: 9rem;
   }
 
-  #s3 .info img {
-    width: 7rem;
-
-  }
 
   #s3 .info p {
     font-size: 1.5rem;
@@ -477,214 +487,246 @@
     height: 2rem;
   }
 
+  .fixedTop {
+    right: 2.5rem;
+  }
+
   .modeBtn {
     width: 3rem;
     height: 3rem;
-    left: 1rem;
+    right: 3.2rem;
+  }
 
-    header .rel .title-wrap .tit-star {
-      width: 2.5rem;
-      height: 2.5rem;
-    }
+  header .rel .title-wrap .tit-star {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+   .about-item .img-box{
+  bottom: 1rem;
+  right: -1rem;
+ }
+ #s3 .info-wrap>div{
+  padding-left: 20rem;
+ }
+   #s3 .info .img {
+    width: 3rem;
+    height: 3rem;
+
+  }
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+  .cursor {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .team .line-wrap::before {
+    left: -3rem;
+    top: 3.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .solo .line-wrap::before {
+    top: 4rem;
+    left: -2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .portfolio .line-wrap::before {
+    left: -3rem;
+    top: 5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .reboot .line-wrap::before {
+    left: -3rem;
+    top: 3.6em;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #s2 .line-wrap .line {
+    right: 23rem;
+    width: 9rem;
+  }
+
+  #s2 .s2-tit .line {
+    top: 3.2rem
+  }
+
+  #s2 .s2-tit .star2,
+  #s2 .s2-tit .star1 {
+    top: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #s2 .s2-tit .star.on .star1 {
+    left: 27rem;
+  }
+
+  #s2 .s2-tit h1 {
+    font-size: 5rem;
+  }
+
+  .line-wrap::before {
+    width: 2rem;
+    left: 3rem;
+    top: 23.4rem;
+  }
+
+  #s1 .img-wrap .face {
+    top: 15.2rem;
+    left: -9rem;
+    width: 17rem;
+  }
+
+  #s1 .about-wrap {
+    padding: 20rem 0 0 1rem;
+  }
+
+  #s1 .about-wrap .in-wrap span:nth-child(2),
+  #s1 .about-wrap .in-wrap span {
+    font-size: 1.2rem;
+  }
+
+  #s1 .about-wrap .in-wrap span {
+    padding-right: 1rem;
+  }
+
+  .about-list {
+    padding: 5rem 2rem;
+  }
+
+  .about-item {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .text-box.front .tag-list {
+    flex-wrap: nowrap;
+    gap: .5rem;
+  }
+
+  .text-box.front .tag-list p {
+    font-size: 1rem;
+  }
+
+  .text-box.front .tag-list p {
+    padding: .6rem 1.4rem;
+    border-radius: 1.5rem;
+  }
+
+  .left-star {
+    left: -93%;
+
+
+  }
+
+  .left-star::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    right: -.5rem;
+    top: calc(50% - .8rem);
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -1rem;
+    right: 13rem;
   }
 
 
 
-  @media screen and (max-width: 780px) {
-    .cursor {
-      width: 1rem;
-      height: 1rem;
-    }
+  .side-p-line {
+    width: 40rem;
+  }
 
-    body.light-mode #s0 .rel .tit-wrap .s0-tit .kwak.on::after {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    #s2 .team .line-wrap::before {
-      left: -3rem;
-      top: 5rem;
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    #s2 .solo .line-wrap::before {
-      top: 5.5rem;
-      left: -2.5rem;
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    #s2 .portfolio .line-wrap::before {
-      left: -3rem;
-      top: 5rem;
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    #s2 .reboot .line-wrap::before {
-      left: -3rem;
-      top: 5rem;
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    #s2 .line-wrap .line {
-      right: 23rem;
-      width: 9rem;
-    }
-
-    #s2 .s2-tit .line {
-      top: 3.2rem
-    }
-
-    #s2 .s2-tit .star2,
-    #s2 .s2-tit .star1 {
-      top: 2rem;
-      width: 3rem;
-      height: 3rem;
-    }
-
-    #s2 .s2-tit .star.on .star1 {
-      left: 27rem;
-    }
-
-    #s2 .s2-tit h1 {
-      font-size: 5rem;
-    }
-
-    .line-wrap::before {
-      width: 2rem;
-      left: 3rem;
-      top: 23.4rem;
-    }
-
-    #s1 .img-wrap .face {
-      top: 15.2rem;
-      left: -9rem;
-      width: 17rem;
-    }
-
-    #s1 .about-wrap {
-      padding: 20rem 0 0 1rem;
-    }
-
-    #s1 .about-wrap .in-wrap span:nth-child(2),
-    #s1 .about-wrap .in-wrap span {
-      font-size: 1.2rem;
-    }
-
-    #s1 .about-wrap .in-wrap span {
-      padding-right: 1rem;
-    }
-
-    .about-list {
-      padding: 5rem 2rem;
-    }
-
-    .about-item {
-      width: 100%;
-      height: 20rem;
-    }
-
-    .text-box.front .tag-list {
-      flex-wrap: nowrap;
-      gap: .5rem;
-    }
-
-    .text-box.front .tag-list p {
-      font-size: 1rem;
-    }
-
-    .text-box.front .tag-list p {
-      padding: .6rem 1.4rem;
-      border-radius: 1.5rem;
-    }
-
-    .left-star {
-      left: -93%;
-
-
-    }
-
-    .left-star::before {
-      width: 1.5rem;
-      height: 1.5rem;
-      right: -.5rem;
-      top: calc(50% - .8rem);
-    }
-
-    #s0 .rel .tit-wrap .s0-tit .kwak::after {
-      width: 1.5rem;
-      height: 1.5rem;
-      top: -1rem;
-      right: 13rem;
-    }
-
-
-
-    .side-p-line {
-      width: 40rem;
-    }
-
-    /* .side-p {
+  /* .side-p {
     width: 35rem;
   }*/
-    .side-p svg line {
-      width: 20rem;
-    }
-
-    .thatsme {
-      right: -7.5rem;
-      bottom: -8rem;
-    }
-
-    .side-p svg line {
-      stroke: white;
-      stroke-width: 2;
-    }
-
-    #s0 .tit-wrap p span {
-      top: calc(100% - 1.8rem);
-      left: calc(100% - 13.8rem);
-    }
-
-    #s1 .tit-wrap h1 {
-      font-size: 5rem;
-      text-align: center;
-    }
-
-    .about-inner .img-wrap {
-      width: 25rem;
-    }
-
-
-    #s3 .rel h1 {
-      font-size: 6rem;
-    }
-
-    #s1 .img-wrap {
-      width: 15rem;
-      display: flex;
-    }
-
-
-
-    #s1 .img-wrap .line {
-      left: -3rem;
-      width: 25rem;
-      height: 24rem;
-    }
-
-    header .rel .title-wrap .tit-star {
-      width: 2rem;
-      height: 2rem;
-    }
+  .side-p svg line {
+    width: 20rem;
   }
 
-  @media screen and (max-width: 499px) {
-    #s0 .tit-wrap {
-      transform: scale(.8);
-    }
+  .thatsme {
+    right: -7.5rem;
+    bottom: -8rem;
+  }
+
+  .side-p svg line {
+    stroke: white;
+    stroke-width: 2;
+  }
+
+  #s0 .tit-wrap p span {
+    top: calc(100% - 1.8rem);
+    left: calc(100% - 13.8rem);
+  }
+
+  #s1 .tit-wrap h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .about-inner .img-wrap {
+    width: 25rem;
+  }
+
+  .modeBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+    right: 2.8rem;
+  }
+  .fixedTop img{
+    width: 3rem;
+  }
+
+  #s3 .rel h1 {
+    font-size: 6rem;
+  }
+
+  #s1 .img-wrap {
+    width: 15rem;
+    display: flex;
+  }
+
+
+
+  #s1 .img-wrap .line {
+    left: -3rem;
+    width: 25rem;
+    height: 24rem;
+  }
+
+  header .rel .title-wrap .tit-star {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  #s0 .tit-wrap {
+    transform: scale(.8);
+  }
+    .fixedTop {
+    right: 1.5rem;
+  }
+
+  .modeBtn {
+    right: 1.8rem;
   }
 }

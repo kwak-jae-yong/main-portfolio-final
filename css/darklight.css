@@ -1,18 +1,36 @@
 body.light-mode {
-    background-color: #f9f9f9 !important;
-
+    background-image: url(../img/overlay-l.gif);
+    background-color: transparent;
     color: #111 !important;
+    position: relative;
+}
+body.light-mode:after {
+    display: none;
+    /* background-color: #ffffffd5; */
+    /* z-index: 1; */
 }
 
+body.light-mode section{
+    background-color: transparent;
+
+}
+body.light-mode #s0 {
+    background-color: transparent;
+}
 body.light-mode #s1 {
-    background-color: rgba(160, 160, 160, 0.692);
+    background-color:transparent;
 }
 
 body.light-mode header {
-    background-color: rgba(126, 126, 126, 0.616) !important;
+    background-color: rgba(255, 255, 255, 0.616) !important;
     color: #111 !important;
+    border-bottom: .1rem solid #fff;
+    box-shadow: 0 3px 1px #0000000e;
 }
 
+body.light-mode  #s1 .color-box{
+    background-color: #fff;
+}
 body.light-mode #s1 .about-wrap .in-wrap {
     border-bottom: .3rem solid black;
 }
@@ -26,7 +44,7 @@ body.light-mode #s0 .rel .tit-wrap .s0-tit span {
 }
 
 body.light-mode .color-box {
-    background-color: rgba(160, 160, 160, 0.692) !important;
+    /* background-color: rgba(160, 160, 160, 0.692) !important; */
 }
 
 body.light-mode .modeBtn {
@@ -42,24 +60,24 @@ body.light-mode #s1 .about-wrap .in-wrap span {
 }
 
 body.light-mode #s0 {
-    background-color: rgba(160, 160, 160, 0.692);
+    /* background-color: rgba(160, 160, 160, 0.692); */
 }
 
 /* 라이트모드에서도 동일한 hover 효과 적용 */
 body.light-mode .menu-list ul li:nth-child(1):hover a {
-    color: #CDFF62 !important;
+    /* color: #CDFF62 !important; */
 }
 
 body.light-mode .menu-list ul li:nth-child(2):hover a {
-    color: #00FFA4 !important;
+    /* color: #00FFA4 !important; */
 }
 
 body.light-mode .menu-list ul li:nth-child(3):hover a {
-    color: #6BFEFE !important;
+    /* color: #6BFEFE !important; */
 }
 
 body.light-mode .menu-list ul li:nth-child(4):hover a {
-    color: #FF9DEF !important;
+    /* color: #FF9DEF !important; */
 }
 
 
@@ -163,8 +181,9 @@ body.light-mode #s2 .line {
 
 
 body.light-mode .text-box.front {
-    background-color: #bebebe;
-    border: .1rem solid black;
+    background-color: #ffffff;
+    border: .1rem solid rgb(224, 224, 224);
+    box-shadow: 0 0 10px #0000000c;
 }
 
 body.light-mode .text-box.front h4 {
@@ -174,6 +193,9 @@ body.light-mode .text-box.front h4 {
 body.light-mode .text-box.front .tag-list p {
     border: .1rem solid black;
     color: black;
+}
+body.light-mode .about-list .text-box.back h4{
+    color: #000;
 }
 
 body.light-mode #s2 .solo .svg-wrap {
@@ -197,11 +219,11 @@ body.light-mode #s2 .portfolio .svg-wrap {
 }
 
 body.light-mode #s2 {
-    background-color: #bebebe8c;
+    background-color: transparent;
 }
 
 body.light-mode #s2 h1 {
-    color: #000;
+    color: #000000;
 }
 
 body.light-mode .reboot .about-list .text-box.back {
@@ -218,12 +240,47 @@ background-color:  rgba(208, 255, 0, 0.5);
 }
 body.light-mode .about-list .text-box.back h4,
 body.light-mode #s2 .box-tit p {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 body.light-mode .about-item .img-box a{
-    fill: white;
+    fill: rgb(0, 0, 0);
 }
 body.light-mode .about-item .img-box a .python,body.light-mode .about-item .img-box a .react{
-      fill: white;
+      fill: rgb(0, 0, 0);
+}
+body.light-mode #s3 .rel h1
+{
+    color: #000;
+}
+body.light-mode #s3 .info-wrap{
+    background-color: #fff;
+}
+body.light-mode #s3 .info-wrap *{
+    color: #000;
+}
+
+body.light-mode #s3 .call .img {
+    background: url(../img/darkphone.svg) no-repeat center/contain;
+    width: 5rem;
+    height: 5rem;
+}
+body.light-mode #s3 .mail .img {
+    background: url(../img/darkmail.svg) no-repeat center/contain;
+    width: 5rem;
+    height: 5rem;
+}
+body.light-mode #s3 .address .img {
+    background: url(../img/darkinfo.svg) no-repeat center/contain;
+    width: 5rem;
+    height: 5rem;
+}
+body.light-mode #s3 .notion .img {
+    background: url(../img/darknotion.svg) no-repeat center/contain;
+    width: 5rem;
+    height: 5rem;
+}
+
+body.light-mode body.light-mode #s3 .info span{
+    background-color: #000;
 }

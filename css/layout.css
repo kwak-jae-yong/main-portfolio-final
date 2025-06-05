@@ -15,8 +15,8 @@
 
 .fixedTop {
     position: fixed;
-    right: 5rem;
-    bottom: 5rem;
+    right: 3rem;
+    bottom: 1rem;
     cursor: pointer;
     z-index: 6;
     opacity: 0;
@@ -26,11 +26,11 @@
 
 .modeBtn {
     position: fixed;
-    right: 1rem;
+    right: 3.8rem;
     bottom: 6.3rem;
     cursor: pointer;
     z-index: 6;
- 
+
     width: 3rem;
     height: 3rem;
     background: url(../img/L.svg) no-repeat center/contain;
@@ -1089,6 +1089,16 @@ body.full {
     }
 }
 
+.tl-jsx::before {
+    content: "jsx";
+    position: absolute;
+    color: #000;
+    bottom: -2rem;
+    left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
 
 #s2 .box-tit h1 {
     text-transform: capitalize;
@@ -1158,7 +1168,7 @@ body.full {
     background-color: #1F1F1F;
     color: white;
 
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.171);
     border-radius: 20px;
     padding: 30px;
     display: flex;
@@ -1440,9 +1450,7 @@ body.full {
 
 }
 
-#s3 .info img {
-    padding-right: 4rem;
-}
+
 
 #s3 .info p {
     font-size: 3rem;
@@ -1460,9 +1468,30 @@ body.full {
     border-radius: .5rem;
 }
 
-#s3 .notion img {
-    width: 9rem;
+#s3 .info .img {
+    margin-right: 3rem;
+    width: 5rem;
     height: 5rem;
+}
+
+#s3 .call .img {
+    background: url(../img/Call.svg) no-repeat center/contain;
+
+}
+
+#s3 .mail .img {
+    background: url(../img/Mail.svg) no-repeat center/contain;
+
+}
+
+#s3 .address .img {
+    background: url(../img/address.svg) no-repeat center/contain;
+
+}
+
+#s3 .notion .img {
+    background: url(../img/Notion-icon.svg) no-repeat center/contain;
+
 }
 
 /*footer end*/
