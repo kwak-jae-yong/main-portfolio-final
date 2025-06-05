@@ -284,3 +284,7 @@ body.light-mode #s3 .notion .img {
 body.light-mode body.light-mode #s3 .info span{
     background-color: #000;
 }
+
+body.light-mode .about-list .text-box.back{
+    border: .1rem solid rgba(102, 102, 102, 0.5);
+}
