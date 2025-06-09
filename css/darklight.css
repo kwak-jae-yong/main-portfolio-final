@@ -4,21 +4,24 @@ body.light-mode {
     color: #111 !important;
     position: relative;
 }
+
 body.light-mode:after {
     display: none;
     /* background-color: #ffffffd5; */
     /* z-index: 1; */
 }
 
-body.light-mode section{
+body.light-mode section {
     background-color: transparent;
 
 }
+
 body.light-mode #s0 {
     background-color: transparent;
 }
+
 body.light-mode #s1 {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 body.light-mode header {
@@ -28,9 +31,10 @@ body.light-mode header {
     box-shadow: 0 3px 1px #0000000e;
 }
 
-body.light-mode  #s1 .color-box{
+body.light-mode #s1 .color-box {
     background-color: #fff;
 }
+
 body.light-mode #s1 .about-wrap .in-wrap {
     border-bottom: .3rem solid black;
 }
@@ -194,7 +198,8 @@ body.light-mode .text-box.front .tag-list p {
     border: .1rem solid black;
     color: black;
 }
-body.light-mode .about-list .text-box.back h4{
+
+body.light-mode .about-list .text-box.back h4 {
     color: #000;
 }
 
@@ -229,34 +234,42 @@ body.light-mode #s2 h1 {
 body.light-mode .reboot .about-list .text-box.back {
     background-color: rgba(0, 255, 255, 0.5);
 }
-body.light-mode .team .about-list .text-box.back{
+
+body.light-mode .team .about-list .text-box.back {
     background-color: rgba(0, 255, 136, 0.5);
 }
-body.light-mode .portfolio .about-list .text-box.back{
+
+body.light-mode .portfolio .about-list .text-box.back {
     background-color: rgba(255, 0, 208, 0.5);
 }
-body.light-mode .solo .about-list .text-box.back{
-background-color:  rgba(208, 255, 0, 0.5);
+
+body.light-mode .solo .about-list .text-box.back {
+    background-color: rgba(208, 255, 0, 0.5);
 }
+
 body.light-mode .about-list .text-box.back h4,
 body.light-mode #s2 .box-tit p {
     color: rgb(0, 0, 0);
 }
 
-body.light-mode .about-item .img-box a{
+body.light-mode .about-item .img-box a {
     fill: rgb(0, 0, 0);
 }
-body.light-mode .about-item .img-box a .python,body.light-mode .about-item .img-box a .react{
-      fill: rgb(0, 0, 0);
+
+body.light-mode .about-item .img-box a .python,
+body.light-mode .about-item .img-box a .react {
+    fill: rgb(0, 0, 0);
 }
-body.light-mode #s3 .rel h1
-{
+
+body.light-mode #s3 .rel h1 {
     color: #000;
 }
-body.light-mode #s3 .info-wrap{
+
+body.light-mode #s3 .info-wrap {
     background-color: #fff;
 }
-body.light-mode #s3 .info-wrap *{
+
+body.light-mode #s3 .info-wrap * {
     color: #000;
 }
 
@@ -265,26 +278,43 @@ body.light-mode #s3 .call .img {
     width: 5rem;
     height: 5rem;
 }
+
 body.light-mode #s3 .mail .img {
     background: url(../img/darkmail.svg) no-repeat center/contain;
     width: 5rem;
     height: 5rem;
 }
+
 body.light-mode #s3 .address .img {
     background: url(../img/darkinfo.svg) no-repeat center/contain;
     width: 5rem;
     height: 5rem;
 }
+
 body.light-mode #s3 .notion .img {
     background: url(../img/darknotion.svg) no-repeat center/contain;
     width: 5rem;
     height: 5rem;
 }
 
-body.light-mode body.light-mode #s3 .info span{
+body.light-mode body.light-mode #s3 .info span {
     background-color: #000;
 }
 
-body.light-mode .about-list .text-box.back{
+body.light-mode .about-list .text-box.back {
     border: .1rem solid rgba(102, 102, 102, 0.5);
+}
+
+@media screen and (max-width: 1600px) {
+    body.light-mode #s3 .info .img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    body.light-mode #s3 .info .img {
+        width: 3rem;
+        height: 3rem;
+    }
 }
