@@ -427,6 +427,7 @@ header svg {
 #s1 .color-box {
     background-color: rgba(0, 0, 0, 0.600);
     height: calc(100% - 45rem);
+    
 
 }
 
@@ -483,10 +484,10 @@ header svg {
 }
 
 #s1 .about-wrap {
-    padding: 10rem 0 0 0;
+padding: 15rem 10rem;
     max-width: 160rem;
     height: 60.8rem;
-    margin: auto;
+
 
 }
 
@@ -514,7 +515,14 @@ header svg {
 
 #s1 .about-wrap {
     display: inline-block;
-    padding: 10rem;
+
+}
+
+#s1 .about-wrap h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    display: none;
+    text-align: center;
 }
 
 #s1 .about-wrap .in-wrap {
